@@ -18,25 +18,6 @@
           </div>
         </div>
         
-        <!-- Key Features -->
-        <div class="about-section">
-          <h2>{{ $t('about.features.title') }}</h2>
-          <ul class="feature-list">
-            <li v-for="(feature, index) in $t('about.features.items')" :key="index">
-              {{ feature }}
-            </li>
-          </ul>
-        </div>
-        
-        <!-- Technologies -->
-        <div class="about-section">
-          <h2>{{ $t('about.tech.title') }}</h2>
-          <ul class="tech-list">
-            <li v-for="(tech, index) in $t('about.tech.items')" :key="index">
-              {{ tech }}
-            </li>
-          </ul>
-        </div>
         
         <!-- Links -->
         <div class="about-section links-section">
@@ -179,36 +160,7 @@ export default defineComponent({
   font-size: 1.1rem;
 }
 
-.feature-list,
-.tech-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-.feature-list li,
-.tech-list li {
-  color: var(--gray-700);
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--gray-100);
-  position: relative;
-  padding-left: 2rem;
-}
-
-.feature-list li:before,
-.tech-list li:before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: var(--primary-500);
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.feature-list li:last-child,
-.tech-list li:last-child {
-  border-bottom: none;
-}
 
 .links-section {
   background: linear-gradient(135deg, var(--primary-50) 0%, var(--secondary-50) 100%);
