@@ -135,7 +135,43 @@ export default {
     }
   },
   about: {
-    description: 'This is an open-source project for converting Telegram stickers (TGS) to Lottie JSON format. Built with Vue 3, TypeScript, and modern web technologies.'
+    description: 'This is an open-source project for converting Telegram stickers (TGS) to Lottie JSON format. Built with Vue 3, TypeScript, and modern web technologies.',
+    project: {
+      title: '🚀 Project Information',
+      description: 'Lottie TGS Toolkit is a professional web application that provides powerful tools for working with Telegram animated stickers.',
+      openSource: 'This project is completely open source and available on GitHub.',
+      github: 'View on GitHub',
+      author: 'Created by guard22'
+    },
+    features: {
+      title: '✨ Key Features',
+      items: [
+        'Convert TGS files to Lottie JSON format',
+        'Batch processing for multiple files',
+        'Professional timeline editor',
+        'Real-time animation preview',
+        'Multilingual interface (English/Russian)',
+        'No server uploads - everything works in your browser'
+      ]
+    },
+    tech: {
+      title: '🛠️ Technologies Used',
+      items: [
+        'Vue 3 with Composition API',
+        'TypeScript for type safety',
+        'Vue Router for navigation',
+        'Vuex for state management',
+        'Vue I18n for internationalization',
+        'Lottie Web for animations',
+        'Modern CSS with custom properties'
+      ]
+    },
+    links: {
+      title: '🔗 Useful Links',
+      github: 'GitHub Repository',
+      issues: 'Report Issues',
+      contribute: 'Contribute to Project'
+    }
   },
   common: {
     loading: 'Loading...',
